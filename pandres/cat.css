@@ -1,0 +1,91 @@
+body{
+    background-color: #464646;
+    color:#ddd;
+    font-family: system-ui;
+}
+.container{
+    position: absolute;
+    width:1000px;
+    height:600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: radial-gradient(#0e0213, #312e36);
+    overflow: hidden;
+}
+
+.header{
+    position: absolute;
+    top:0;
+    width:100%;
+    z-index: 1111;
+    padding:10px;
+}
+
+.header .logo{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border-radius: 25%;
+    margin-bottom: 600px;
+}
+
+/* a vadhartoh rehje jem jame row and coloum vadhe */
+.gridmate{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+#lambocat{
+    margin-top: 10px;
+}
+
+#kavyamustang{
+    margin-top: 10px;
+}
+.boxs{
+    margin-top: 40px;    
+}
+#kavyamarci{
+    margin-top: 10px;
+}
+.box1{
+    border-radius: 2.5%;
+    height: 70px;
+    width: 450px;
+    border: 1px solid rgb(82, 80, 80);
+  margin-bottom: px;
+   margin-left: 20px;
+}
+
+.bmw{
+    height: auto;
+    width: 166px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+.write h2{
+    margin: 0;
+    padding: 0;
+}
+
+.write p{
+    margin: 0;
+    padding: 0;
+   
+}
+.write{
+    margin-left: 200px;
+}
+
+.aofb{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 200px;
+    margin-left: 0px;
+    margin-top: px;
+}

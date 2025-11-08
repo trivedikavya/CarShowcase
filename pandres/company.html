@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> catagory </title>
+    <link rel="stylesheet" href="i.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="kavyalogo - Copy.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img href="mailto:kavyatrivedi931@gmail.com" src="kavyalogo.png" style="cursor: pointer;" class="logo">      
+        </div>
+
+        <!-- Category Section -->
+        <section class="category-section">
+            <h2>Car Brands</h2>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="lambologo-removebg-preview.png" alt="Toyota Logo">
+                    <h3>Lamborghini</h3>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="logoford-removebg-preview.png" alt="Ford Logo">
+                    <h3>Ford</h3>
+                </div>
+                <!-- Additional cards can be added here -->
+                <div class="card">
+                    <img src="logobmw-removebg-preview.png" alt="Ford Logo">
+                    <h3>BMW</h3>
+                </div>
+
+                <div class="card">
+                    <img src="logomar-removebg-preview.png"Ford Logo">
+                    <h3>mercedes</h3>
+                </div>
+
+                <div class="card">
+                    <img src="logomac-removebg-preview.png" alt="Ford Logo">
+                    <h3>Macleran</h3>
+                </div>
+
+                <div class="card">
+                    <img src="logoferrari-removebg-preview.png" alt="Ford Logo">
+                    <h3>Ferrari</h3>
+                </div>
+
+                <div class="card">
+                    <img src="logop-removebg-preview.png" alt="Ford Logo">
+                    <h3>Porches</h3>
+                </div>
+
+                <div class="card">
+                    <img src="logorolls-removebg-preview.png" alt="Ford Logo">
+                    <h3>Rolls Royce</h3>
+                </div>
+
+                
+
+
+
+
+            </div>
+        </section>
+    </div>
+
+    <style>
+        /* Existing CSS */
+        body {
+            background-color: #464646;
+            color: #ddd;
+            font-family: system-ui;
+        }
+        .container {
+            position: absolute;
+            width: 1000px;
+            height: 600px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: radial-gradient(#0e0213, #312e36);
+            overflow: hidden;
+        }
+        .header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 1111;
+            padding: 10px;
+        }
+        .header .logo {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border-radius: 25%;
+        }
+
+        /* New CSS for Category Section */
+        .category-section {
+            text-align: center;
+            padding: 20px;
+            color: #ddd;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .card {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: 70px;
+            border-radius: 8px;
+            margin-bottom: 5px;
+        }
+
+        .card h3 {
+            font-size: 1.2em;
+            color: #ddd;
+        }
+    </style>
+</body>
+</html>

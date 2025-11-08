@@ -1,0 +1,194 @@
+body{
+    background-color: #464646;
+    color:#ddd;
+    font-family: system-ui;
+}
+.container{
+    position: absolute;
+    width:1000px;
+    height:600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: radial-gradient(#0e0213, #312e36);
+    overflow: hidden;
+    
+}
+
+.header{
+    position: absolute;
+    top:0;
+    width:100%;
+    z-index: 1111;
+    padding:10px;
+}
+
+.header .logo{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border-radius: 25%;
+}
+
+.si1{
+    height: auto;
+    width: 550px;
+    margin-top: 85px;
+    float: left;
+}
+
+.writethings{
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+   
+}
+
+.options{
+    clear: both;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.color-options, .model-options, .type-options{
+    margin-bottom: 20px;
+}
+
+.cc1{
+    
+font-size: 30px;
+}
+
+.opts{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 5px; 
+    /* writen and radio button vachche gap a decide kare */
+}
+
+label{
+    font-weight: bold;
+}
+
+.right{
+     position: absolute; 
+     left:50px;
+   bottom: 5;
+   margin-left: 20PX;
+   
+    /* display: none; */
+}
+.right h2{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom:1px;
+}
+.right ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+/* uper wada ni height mate  */
+.right li{
+    font-size: medium;
+    position: relative;
+    margin-top: 10px;
+}
+ .right li::before{
+    position: absolute;
+    left:-40px;
+    top:50%;
+    transform: translate(0,-50%);
+    width:8px;
+    height: 8px;
+    background-color: #08a9da;
+    content:'';
+    border-radius: 50%;
+    box-shadow:  0 0 10px #01f0f8;
+}
+/* 2nd sec nu che a  */
+#c2{
+    left: 220px;
+    margin-left: 60px;
+}
+#c3{
+    left: 420px;
+    margin-left: 60px;
+}
+#c4{
+    left:630px;
+    margin-left: 60px;
+}
+ .right li p:nth-child(1){
+    font-weight: 500;
+    padding:0;
+    margin:0;
+}
+/* nicha wadani height mate  */
+.right li p:nth-child(2){
+    font-weight: 100;
+    padding:0;
+    margin:0;
+    font-size: small;
+}
+
+
+
+
+.buy-now{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.buy-btn{
+    background-color: #00c3ff;
+    color: rgb(0, 0, 0);
+    font-weight: 500px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 150px;
+}
+
+.buy-btn:hover{
+    background-color: #58f80d;
+    
+}
+
+.hbtn{
+    background-color: transparent;
+    cursor: pointer;
+    font-size: medium;
+    border: 0cap;
+    right: 95%;
+    margin-left: 350px;
+
+    color: aliceblue;
+    margin-top: 250px;
+    bottom: 500px;
+}
+.hbtn:hover{
+    font-size: large;
+    color: lime;
+}
+.habtn:hover{
+    font-size: large;
+    color: lime;
+}
+
+.habtn{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.FOOTER{
+left: 500px;
+margin-left: 700px;
+color: #6d6b6b;
+}
+::selection{
+    background: #000;
+    color: aliceblue;
+}

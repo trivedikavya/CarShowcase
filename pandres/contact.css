@@ -1,0 +1,93 @@
+body{
+    background-color: #464646;
+    color:#ddd;
+    font-family: system-ui;
+}
+.container{
+    position: absolute;
+    width:1000px;
+    height:600px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: radial-gradient(#0e0213, #312e36);
+    overflow: hidden;
+}
+
+.header{
+   
+    top:0;
+    width:100%;
+    z-index: 1111;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    border-radius: 25px;
+    height: 250px;
+    width: 250;
+   margin-top: 40px;
+   
+    
+}
+#gt{
+background: #000;
+color: white;
+box-shadow: none;
+border-radius: 25px;
+text-decoration: none;
+cursor: pointer;
+}
+#ln{
+background: rgb(6, 111, 231);
+color: white;
+border-radius: 25px;
+text-decoration: none;
+cursor: pointer;
+}
+.icon{
+    margin-left: 370px;
+    margin-top: 10px;
+}
+
+.maincontain{
+    border: 0.5px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 170px;
+    width: 700px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 150px;
+    box-shadow: 10px 10px black;
+    
+}
+.setup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pc{
+    margin: 20px;
+    position: relative;
+}
+.c1{
+    height: 50px;
+    width: auto;
+    transform: rotate(20deg);
+    margin-bottom: 50px;
+}
+
+.car2{
+   margin-right: 50px;
+}
+.c2{
+    height: 50px;
+    width: auto;
+    transform: rotate(-20deg);
+    top: 50px;
+    right: 70px;
+}
